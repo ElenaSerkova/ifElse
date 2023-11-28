@@ -12,6 +12,7 @@ public class Calculator1Demo {
         calc.y = 17;
 
         calc.printSum();
+        calc.printSub();
 
         Calculator1 calc2 = new Calculator1();
 
@@ -19,6 +20,7 @@ public class Calculator1Demo {
         calc2.y = 84;
 
         calc2.printSum();
+        calc2.printSub();
 
         Calculator1 calc3 = new Calculator1();
 
@@ -26,6 +28,7 @@ public class Calculator1Demo {
         calc3.y = 467;
 
         calc3.printSum();
+        calc3.printSub();
 
         Calculator1 calc4 = new Calculator1();
 
@@ -33,6 +36,7 @@ public class Calculator1Demo {
         calc4.y = 7889;
 
         calc4.printSum();
+        calc4.printSub();
 
         Calculator1 calc5 = new Calculator1();
 
@@ -40,6 +44,7 @@ public class Calculator1Demo {
         calc5.y = 79084;
 
         calc5.printSum();
+        calc5.printSub();
 
 
 

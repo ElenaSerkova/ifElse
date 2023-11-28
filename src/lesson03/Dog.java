@@ -14,7 +14,14 @@ public class Dog {
     public void happyBirthDay(){
         System.out.println("My Dog has today a Birthday!");
         System.out.println("He was " + age);
-        age = age + 1;
+        age++;
         System.out.println("And now he is " + age);
+    }
+
+    public void change (){
+        System.out.println("I have my Birthday! I was " + age);
+        age++;
+        System.out.println("Now i am " + age);
+
     }
 }

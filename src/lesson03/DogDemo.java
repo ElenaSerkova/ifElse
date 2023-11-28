@@ -10,5 +10,9 @@ public class DogDemo {
 
         myDog.gaf();
         myDog.happyBirthDay();
+
+        System.out.println("================");
+
+        myDog.change();
     }
 }

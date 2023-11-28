@@ -6,24 +6,22 @@ public class CalculatorNewModelDemo {
 
         CalculatorNewModel calc = new CalculatorNewModel();
 
-        int result = calc.sum(10,5);
-
+        int result = calc.sum(10,5, 8);
         System.out.println("Результат сложения = " + result);
 
         result = calc.sub(16, 4);
-
         System.out.println("Результат вычитания = " + result);
 
         result = calc.multipl(34, 7);
-
         System.out.println("Результат умножения = " + result);
 
         result = (int) calc.div(25,5);
-
         System.out.println("Результат деления = " + result);
 
-        double resultDiv = calc.div(10, 3);
+        result = calc.prozent(10, 3);
+        System.out.println("Остаток от деления = " + result);
 
+        double resultDiv = calc.div(10, 3);
         System.out.println("Результат деления = " + resultDiv);
 
 

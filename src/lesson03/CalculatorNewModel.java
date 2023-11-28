@@ -2,8 +2,8 @@ package lesson03;
 
 public class CalculatorNewModel {
 
-    public int sum(int x, int y){
-        int result = x + y;
+    public int sum(int x, int y, int z){
+        int result = x + y + z;
         return result;
     }
     public int sub(int x, int y){
@@ -14,7 +14,13 @@ public class CalculatorNewModel {
         int result = x * y;
         return result;
     }
+
+    public int prozent(int x, int y){
+        int result = x % y;
+        return result;
+    }
     public double div(int x, int y){
+
         return (double) x / y;
     }
 }
