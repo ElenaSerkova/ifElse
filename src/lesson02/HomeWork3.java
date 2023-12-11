@@ -15,12 +15,6 @@ public class HomeWork3 {
 
         int num = 34567;
 
-        int digit1 = num % 10000;
-        int digit2 = digit1 % 1000;
-        int digit3 = digit2 % 100;
-        int digit4 = digit3 % 10;
-        int digit5 = num / 10000;
-
         String numberStr = String.valueOf(num);
 
         System.out.println(numberStr);

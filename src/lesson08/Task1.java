@@ -16,15 +16,16 @@ public class Task1 {
 
         System.out.println(Arrays.toString(arrayInt));
 
-        System.out.println("=============================");
 
-        System.out.println(arrayInt[0] == arrayInt[3]);
-        System.out.println(arrayInt[1] == arrayInt[2]);
-        System.out.println(arrayInt[2] == arrayInt[1]);
-        System.out.println(arrayInt[3] == arrayInt[0]);
+        int[] reverseArray = new int[arrayInt.length];
 
-        System.out.println(Arrays.toString(arrayInt));
+        for (int i = 0; i < reverseArray.length; i++) {
+            int j = reverseArray.length - 1 - i;
+            reverseArray[i] = arrayInt[j];
+
+            System.out.println(Arrays.toString(reverseArray));
+
     }
 
 
-}
+}}

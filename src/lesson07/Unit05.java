@@ -17,11 +17,11 @@ public class Unit05 {
             int x = scan.nextInt();
 
             if (x >= 10000 && x <= 99999) {
-
-
                 System.out.println("Sum of numbers is " + sum);
 
             } else {
                 System.out.println("False");}
+
+
         }}
 }

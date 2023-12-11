@@ -25,11 +25,10 @@ public class ДанныеОтПользователя {
 
         double num1 = 50, num2 = 11;
         double result = num1 + num2;
-        result -= 10;
         System.out.println("Результат сложения: " + result);
 
         result = num1 / num2;
-        result++;
+        result++; // если хотим с результатом провести дополнительные действия. Распечатывается именно второй результат
         System.out.println("Результат деления: " + result);
 
         result = num1 - num2;
