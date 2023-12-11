@@ -4,8 +4,8 @@ public class Task4Demo {
     public static void main(String[] args) {
         Task4 weather = new Task4();
 
-        int result = weather.sum(7, 6, 7, 8, 7, 5, 9);
-        System.out.println("Средняя температура за неделю = " + result / 7);
+        double result = weather.sum(5, 4.3, 5, 2,4.6, 9.6, 5);
+        System.out.println("Средняя температура за неделю = " + result / 7 + " градусов.");
 
 
 

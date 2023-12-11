@@ -12,34 +12,23 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+       int[] arrayInt = new int[3];
 
-        System.out.println("Please enter your array size: ");
-        int arraySize = scanner.nextInt();
+        arrayInt[0] = 3;
+        arrayInt[1] = 5;
+        arrayInt[2] = 3;
 
-        int[] intArray = new int[arraySize];
+        System.out.println(Arrays.toString(arrayInt));
 
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = random.nextInt(10);
-            System.out.println("Please enter " + i + " element of array");
-            intArray[i] = scanner.nextInt();
-        }
+        //для сравнения чисел "==", для слов "equals"
 
-        System.out.println(Arrays.toString(intArray));
-
-        for (int i = 0; i < intArray.length; i++) {
-
-                for (int j = i + 1; j < intArray.length; j++)
-                {
-                    if (intArray[i] == intArray[j]);
+        System.out.println(arrayInt[0] == arrayInt[1]);
+        System.out.println(arrayInt[0] == arrayInt[2]);
+        System.out.println(arrayInt[1] == arrayInt[2]);
 
 
-                }
-                }
-            }
 
-            }
+            }}
 
 
 

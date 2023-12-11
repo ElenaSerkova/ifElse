@@ -22,26 +22,23 @@ public class Task4 {
         System.out.println(Arrays.toString(intArray));
 
         int min = intArray[0];
-
-
         for (int i = 0; i < intArray.length; i++) {
             if (intArray[i] < min) {
                 min = intArray[i];
 
             }
         }
-
         System.out.println("Min from array = " + min);
 
+
         int max = intArray[0];
-
-
         for (int i = 0; i < intArray.length; i++) {
             if (intArray[i] > max) {
                 max = intArray[i];
 
             }
-    }    int res = max - min;
+        }
+        int res = max - min;
 
         System.out.println("Max from array = " + max);
         System.out.println("Difference between max and min is: " + res);

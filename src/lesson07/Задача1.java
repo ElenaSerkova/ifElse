@@ -20,6 +20,7 @@ public class Задача1 {
 
         for (int i = 0; i < y; i++){
             result = result * x;
+
         }
         System.out.println("Number " + x + " to the power of " + y + " is " + result);
 
